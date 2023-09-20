@@ -1,0 +1,32 @@
+@use './shared.scss';
+
+$line: 4px;
+$timeline-margin: 20%;
+
+
+.section:last-of-type {
+    min-height: 100%;
+}
+
+.section h2 {
+    margin: shared.$spacing-vertical 0 10px $timeline-margin;
+    padding: 0 shared.$spacing-horizontal;
+}
+
+.timeline {
+    border-left: $line solid shared.$color-primary;
+    border-bottom-right-radius: shared.$radius;
+    border-top-right-radius: shared.$radius;
+    // background: fade(shared.$color-light, 3%);
+    color: fade(shared.$color-font, 80%);
+    margin-left: $timeline-margin;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.8em;
+    font-size: 1.03em;
+    padding: 20px shared.$spacing-horizontal;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 70%;
+}

@@ -1,0 +1,14 @@
+@use './shared.scss';
+
+.preview {
+    position: relative;
+    margin-top: shared.$spacing-vertical + 50px;
+    margin-right: 10%;
+
+    &>div {
+        position: absolute;
+        // bottom: 0;
+        right: 0;
+        text-align: right;
+    }
+}
