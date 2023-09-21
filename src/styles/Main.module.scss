@@ -1,6 +1,7 @@
 @use './shared.scss';
 
 .main {
+    margin-right: shared.$side-margin;
     display: flex;
     flex-direction: column;
 }

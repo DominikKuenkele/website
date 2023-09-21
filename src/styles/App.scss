@@ -1,9 +1,54 @@
 @use './shared.scss';
 
-html {
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+
+body {
   background-color: shared.$background;
+  transition: background-color 0.5s ease;
   color: shared.$color-font;
   font-family: shared.$font-text;
+
+  &.home {
+    background-color: shared.$background;
+  }
+
+  &.projects {
+    background-color: #f9fbe4;
+  }
+
+  &.education {
+    background-color: #fff3e0;
+  }
+
+  &.career {
+    background-color: #eaecf4;
+  }
+
+  &.projectsHover {
+    background-color: #f9fbe4;
+  }
+
+  &.educationHover {
+    background-color: #fff3e0;
+  }
+
+  &.careerHover {
+    background-color: #eaecf4;
+  }
 }
 
 h1,
@@ -25,6 +70,12 @@ a {
   font-size: 1.2em;
 }
 
+.inline-logo {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
 .content {
   display: grid;
   grid-auto-flow: column;
@@ -35,7 +86,7 @@ a {
 .column {
   color: shared.$color-font;
   margin: 10px;
-  height: 77vh;
+  height: 75vh;
 }
 
 .scrollable {

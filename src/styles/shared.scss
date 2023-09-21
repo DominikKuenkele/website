@@ -1,12 +1,3 @@
-// dark
-// $background: #222222;
-
-// $color-primary: #04bfbf;
-// $color-light: #AAAAAA;
-// $color-dark: #555555;
-// $color-font: #d9d9d9;
-
-// light
 $background: #FFFEF3;
 
 $color-primary: #04bfbf;
@@ -17,6 +8,8 @@ $color-font: #222222;
 $spacing-horizontal: 30px;
 $spacing-vertical: 100px;
 $radius: 4px;
+
+$side-margin: 10%;
 
 
 
@@ -113,6 +106,13 @@ $radius: 4px;
     font-family: 'ysabeau';
     src: url('fonts/Ysabeau/Ysabeau-VariableFont_wght.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    src: url('fonts/Material\ Symbols/MaterialSymbolsOutlined.woff2') format('woff');
+}
+
 
 $font-title: 'junge', serif;
 $font-text: 'ysabeau', sans-serif;

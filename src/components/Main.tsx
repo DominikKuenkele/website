@@ -1,14 +1,42 @@
-import { carrer, education, projects } from "../data";
+import { ItemMeta } from '../data';
 import styles from '../styles/Main.module.scss';
+import { HoveredSection, PreviewElement, Sections } from "./App";
 import Section from "./Section";
 
-function Main() {
+interface MainProps {
+    projects: Array<ItemMeta>
+    education: Array<ItemMeta>
+    career: Array<ItemMeta>
+    changeSection: (section: Sections) => void
+    hoverSection: (hoveredSection: HoveredSection) => void
+    setPreview: (previewElement: PreviewElement) => void
+}
+
+function Main(props: MainProps) {
     return (
         <div className={styles.main + ' column'}>
             <div className={styles.list + ' scrollable'}>
-                <Section name='Projects' items={projects} />
-                <Section name='Education' items={education} />
-                <Section name='Career' items={carrer} />
+                <Section
+                    name='Projects'
+                    items={props.projects}
+                    changeSection={props.changeSection}
+                    hoverSection={props.hoverSection}
+                    setPreview={props.setPreview}
+                />
+                <Section
+                    name='Education'
+                    items={props.education}
+                    changeSection={props.changeSection}
+                    hoverSection={props.hoverSection}
+                    setPreview={props.setPreview}
+                />
+                <Section
+                    name='Career'
+                    items={props.career}
+                    changeSection={props.changeSection}
+                    hoverSection={props.hoverSection}
+                    setPreview={props.setPreview}
+                />
             </div>
         </div>
     );

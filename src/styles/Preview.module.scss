@@ -4,11 +4,13 @@
     position: relative;
     margin-top: shared.$spacing-vertical + 50px;
     margin-right: 10%;
+    margin-left: shared.$side-margin;
 
     &>div {
         position: absolute;
         // bottom: 0;
         right: 0;
-        text-align: right;
+        text-align: justify;
+        text-align-last: right;
     }
 }

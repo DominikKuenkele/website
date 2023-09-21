@@ -1,14 +1,13 @@
-import image from '../images/dominik.jpg';
 import styles from '../styles/Preview.module.scss';
 
-function Preview() {
+interface PreviewProps {
+    content: () => JSX.Element
+}
+
+function Preview(props: PreviewProps) {
     return (
         <div className={styles.preview + " column scrollable"}>
-            <div>
-                <img src={image} alt="" width="70%" />
-                <p>I am Dominik Künkele.</p>
-                <p>Computational Linguist and Developer</p>
-            </div>
+            {props.content()}
         </div>
     );
 }

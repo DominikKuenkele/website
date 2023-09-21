@@ -11,10 +11,11 @@ $dot: 11px;
     position: relative;
     cursor: pointer;
 
-    // &:hover {
-    //     background-color: $color-primary;
-    //     color: $color-dark
-    // }
+    &:hover {
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
 
     h3 {
         letter-spacing: 1.5px;
