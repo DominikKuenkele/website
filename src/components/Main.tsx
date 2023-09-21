@@ -16,6 +16,7 @@ function Main(props: MainProps) {
     return (
         <div className={styles.main + ' column'}>
             <div className={styles.list + ' scrollable'}>
+                <div id='home'></div>
                 <Section
                     name='Projects'
                     items={props.projects}
