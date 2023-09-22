@@ -1,7 +1,7 @@
 import image from './images/dominik.jpg';
 
 export const homePreview = <div>
-    <img src={image} alt="" width="80%" />
+    <img src={image} alt="" />
     <p>I am Dominik Künkele.<br />
         Computational Linguist and Developer.</p>
 </div >
@@ -27,26 +27,26 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>Emergence of referring expressions through language games</h1>
             <p>Dominik Künkele</p>
-            <p><strong>Master thesis, in progress on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/thesis/main.pdf" target='_blank'> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>Master thesis, in progress on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/thesis/main.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
             <h3>Code</h3>
-            <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank">
+            <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank" rel="noreferrer">
                 Experiments <span className="material-symbols-outlined">open_in_new</span>
             </a><br />
-            <a href='https://github.com/DominikKuenkele/MLT_Master-Thesis_clevr-dataset-gen' target='_blank'>
+            <a href='https://github.com/DominikKuenkele/MLT_Master-Thesis_clevr-dataset-gen' target="_blank" rel="noreferrer">
                 Generation of datasets <span className="material-symbols-outlined">open_in_new</span>
             </a>
 
             <h3>Datasets</h3>
-            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target="_blank" rel="noreferrer">
                 CLEVR Dale-2 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target="_blank" rel="noreferrer">
                 CLEVR Dale-5 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/7g4X9fZNA25f55L" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/7g4X9fZNA25f55L" target="_blank" rel="noreferrer">
                 CLEVR Single <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/MeANAaEtHx9dMRJ" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/MeANAaEtHx9dMRJ" target="_blank" rel="noreferrer">
                 CLEVR Color <span className="material-symbols-outlined">open_in_new</span>
             </a>
         </div>
@@ -60,23 +60,23 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>Referring as a collaborative process: learning to ground language through language games</h1>
             <p>Dominik Künkele, Simon Dobnik</p>
-            <p><strong>Short paper, published in <a href="https://mezzanine.um.si/en/conference/semdial-2023-marilogue/" target='_blank'>SemDial 2023 <span className="material-symbols-outlined">open_in_new</span></a>, available on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/paper/paper.pdf" target='_blank'> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>Short paper, published in <a href="https://mezzanine.um.si/en/conference/semdial-2023-marilogue/" target="_blank" rel="noreferrer">SemDial 2023 <span className="material-symbols-outlined">open_in_new</span></a>, available on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/paper/paper.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
             <h3>Abstract</h3>
             <p>How do artificial agents based on neural networks coordinate on a new language through referential games over 3-d scenes?
                 We extend a popular CLEVR dataset to control for different combinations of features of target and distractor objects and examine the success of referential grounding learned by the agents.</p>
             <h3>Code</h3>
-            <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank">
+            <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank" rel="noreferrer">
                 Experiments <span className="material-symbols-outlined">open_in_new</span>
             </a><br />
-            <a href='https://github.com/DominikKuenkele/MLT_Master-Thesis_clevr-dataset-gen' target='_blank'>
+            <a href='https://github.com/DominikKuenkele/MLT_Master-Thesis_clevr-dataset-gen' target="_blank" rel="noreferrer">
                 Generation of datasets <span className="material-symbols-outlined">open_in_new</span>
             </a>
 
             <h3>Datasets</h3>
-            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target="_blank" rel="noreferrer">
                 CLEVR Dale-2 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target='_blank'>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target="_blank" rel="noreferrer">
                 CLEVR Dale-5 <span className="material-symbols-outlined">open_in_new</span>
             </a>
         </div>
@@ -89,7 +89,7 @@ export const projects: Array<Item> = [
         },
         itemPreview: <div>
             <h1>This website</h1>
-            <p><strong>available on <a href="https://github.com/DominikKuenkele/website" target='_blank'> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>available on <a href="https://github.com/DominikKuenkele/website" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
         </div>
     },
     {
@@ -101,11 +101,11 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>A young boy with a tree made of trees: Domain Adaptation of an LSTM-based Image Caption Generation Model</h1>
             <p>Dominik Künkele, Maria Szawerna</p>
-            <p><strong>Student paper, available on <a href="https://github.com/Turtilla/aics-project/blob/main/paper/paper.pdf" target='_blank'> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>Student paper, available on <a href="https://github.com/Turtilla/aics-project/blob/main/paper/paper.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
             <h3>Abstract</h3>
             <p>Within this project we aim to explore how fine-tuning a CNN and LSTM-based image captioning model on a new dataset influences its performance on both the old and new data, along with what role some of the parameters, such as fine-tuning data size or the prevalence of out-of-vocabulary tokens in captions play in the process. We discover that differences in vocabulary play a major role and that providing too much fine-tuning data can cause the whole system to fail. We conclude that domain adaptation can be difficult to carry out, but perhaps worth attempting in certain cases.</p>
             <h3>Code</h3>
-            <a href="https://github.com/Turtilla/aics-project/tree/main" target="_blank">
+            <a href="https://github.com/Turtilla/aics-project/tree/main" target="_blank" rel="noreferrer">
                 Experiments <span className="material-symbols-outlined">open_in_new</span>
             </a><br />
         </div>
@@ -128,7 +128,7 @@ export const projects: Array<Item> = [
     },
     {
         itemMeta: {
-            date: '2015-2022',
+            date: '2015\n- 2022',
             title: 'Website of SG Weinstadt',
             description: 'Web development'
         },
@@ -140,7 +140,7 @@ export const projects: Array<Item> = [
 export const education: Array<Item> = [
     {
         itemMeta: {
-            date: '2021-today',
+            date: '2021\n- today',
             title: 'Language Technology',
             description: 'Master of Arts | Göteborg Universitet | Sweden'
         },
@@ -156,7 +156,7 @@ export const education: Array<Item> = [
     },
     {
         itemMeta: {
-            date: '2016-2019',
+            date: '2016\n- 2019',
             title: 'Wirtschaftsinformatik (Business Application Management)',
             description: 'Bachelor of Science | DHBW Stuttgart, Mahle GmbH | Germany'
         },
@@ -175,7 +175,7 @@ export const career: Array<Item> = [
     },
     {
         itemMeta: {
-            date: '2019-2021',
+            date: '2019\n- 2021',
             title: 'SAP PP consultant',
             description: 'Mahle GmbH | Germany'
         },

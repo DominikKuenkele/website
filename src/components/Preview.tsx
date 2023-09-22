@@ -6,7 +6,7 @@ interface PreviewProps {
 
 function Preview(props: PreviewProps) {
     return (
-        <div className={styles.preview + " column scrollable"}>
+        <div id="preview" className={styles.preview + " column scrollable"}>
             {props.content()}
         </div>
     );

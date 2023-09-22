@@ -3,13 +3,22 @@
 $line: 4px;
 $timeline-margin: 20%;
 
+.section {
+    margin-top: shared.$spacing-vertical;
 
-.section:last-of-type {
-    min-height: 100%;
+    @media only screen and (max-width: shared.$tablet-size) {
+        & {
+            margin-top: 20px;
+        }
+
+        &~.section {
+            margin-top: shared.$spacing-vertical;
+        }
+    }
 }
 
 .section h2 {
-    margin: shared.$spacing-vertical 0 10px $timeline-margin;
+    margin: 0 0 10px $timeline-margin;
     padding: 0 shared.$spacing-horizontal;
 }
 
@@ -17,8 +26,6 @@ $timeline-margin: 20%;
     border-left: $line solid shared.$color-primary;
     border-bottom-right-radius: shared.$radius;
     border-top-right-radius: shared.$radius;
-    // background: fade(shared.$color-light, 3%);
-    color: fade(shared.$color-font, 80%);
     margin-left: $timeline-margin;
     letter-spacing: 0.5px;
     position: relative;
@@ -29,4 +36,9 @@ $timeline-margin: 20%;
     text-align: left;
     font-weight: 100;
     max-width: 70%;
+
+    @media only screen and (max-width: shared.$tablet-size) {
+        padding-right: 0;
+    }
+
 }

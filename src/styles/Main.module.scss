@@ -1,7 +1,11 @@
 @use './shared.scss';
 
 .main {
-    margin-right: shared.$side-margin;
+    @media only screen and (min-width: shared.$tablet-size) {
+        margin-right: shared.$side-margin;
+    }
+
+
     display: flex;
     flex-direction: column;
 }

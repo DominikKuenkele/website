@@ -10,6 +10,9 @@ function Header(props: HeaderProps) {
     const handleMouseDown = () => {
         props.changeSection(Sections.Home)
         props.setPreview({ section: Sections.Home, id: 0 })
+
+        const previewPane = document.getElementById('preview');
+        previewPane?.scrollIntoView()
     }
 
     return (

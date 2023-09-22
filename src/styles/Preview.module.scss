@@ -2,16 +2,30 @@
 
 .preview {
     position: relative;
-    margin-top: shared.$spacing-vertical + 50px;
-    margin-right: 10%;
-    margin-left: shared.$side-margin;
+
+    & img {
+        width: 100%;
+    }
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    @media only screen and (min-width: shared.$tablet-size) {
+        margin-top: shared.$spacing-vertical + 50px;
+        margin-right: 10%;
+        margin-left: shared.$side-margin;
+
+        & img {
+            width: 80%;
+        }
+    }
 
     &>div {
-        position: absolute;
-        // bottom: 0;
-        right: 0;
         text-align: justify;
-        text-align-last: right;
+
+        @media only screen and (min-width: shared.$tablet-size) {
+            text-align-last: right;
+        }
 
         & h1,
         & h2,
@@ -20,7 +34,11 @@
         & h5,
         & h6 {
             margin-bottom: 0.2em;
-            text-align: right;
+            text-align: left;
+
+            @media only screen and (min-width: shared.$tablet-size) {
+                text-align: right;
+            }
         }
 
         & p {

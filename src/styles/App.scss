@@ -22,6 +22,7 @@ body {
   transition: background-color 0.5s ease;
   color: shared.$color-font;
   font-family: shared.$font-text;
+  margin: 0;
 
   &.home {
     background-color: shared.$background;
@@ -69,6 +70,8 @@ a {
 .header {
   text-align: center;
   font-size: 1.2em;
+  margin-top: 5px;
+
 }
 
 .inline-logo {
@@ -78,8 +81,14 @@ a {
 }
 
 .content {
+  margin: 5px;
   display: grid;
   grid-auto-flow: column;
+
+  @media only screen and (max-width: shared.$tablet-size) {
+    grid-auto-flow: row;
+  }
+
   grid-auto-columns: 1fr;
   align-items: stretch;
 }
@@ -87,23 +96,36 @@ a {
 .column {
   color: shared.$color-font;
   margin: 10px;
-  height: 75vh;
+
+  @media only screen and (min-width: shared.$tablet-size) {
+    max-height: 85vh;
+  }
 }
 
 .scrollable {
-  overflow: auto;
-  -ms-overflow-style: none;
-  /* Internet Explorer 10+ */
-  scrollbar-width: none;
-  /* Firefox */
-  scroll-behavior: smooth;
+  @media only screen and (min-width: shared.$tablet-size) {
+    overflow: auto;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    scroll-behavior: smooth;
 
-  &::-webkit-scrollbar {
-    display: none;
-    /* Safari and Chrome */
+    &::-webkit-scrollbar {
+      display: none;
+      /* Safari and Chrome */
+    }
   }
 }
 
 footer {
   text-align: center;
+  margin-bottom: 5px;
+
+  // vertical-align: bottom;
+  @media only screen and (min-width: shared.$tablet-size) {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
 }

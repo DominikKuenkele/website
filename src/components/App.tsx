@@ -92,8 +92,8 @@ function App() {
               mail
             </span>
             {' \u0064\u006f\u006d\u0069\u006e\u0069\u006b\u002e\u006b\u0075\u0065\u006e\u006b\u0065\u006c\u0065\u0040\u006f\u0075\u0074\u006c\u006f\u006f\u006b\u002e\u0063\u006f\u006d'}</a> &bull;
-          <a href="https://github.com/DominikKuenkele" target='_blank'> <img src={github_logo} alt="" className='inline-logo' /> GitHub</a>	&bull;
-          <a href="https://www.linkedin.com/in/dominik-k%C3%BCnkele-01270724a/" target='_blank'> <img src={linkedin_logo} alt="" className='inline-logo' /> LinkedIn</a>
+          <a href="https://github.com/DominikKuenkele" target="_blank" rel="noreferrer"> <img src={github_logo} alt="" className='inline-logo' /> GitHub</a>	&bull;
+          <a href="https://www.linkedin.com/in/dominik-k%C3%BCnkele-01270724a/" target="_blank" rel="noreferrer"> <img src={linkedin_logo} alt="" className='inline-logo' /> LinkedIn</a>
         </small>
       </footer>
       <script src="scripts/index.js"></script>

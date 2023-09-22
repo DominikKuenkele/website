@@ -24,6 +24,8 @@ function Item(props: ItemProps) {
     const handleMouseDown = () => {
         props.changeSection(props.section)
         props.setPreview({ section: props.section, id: props.id })
+        const previewPane = document.getElementById('preview');
+        previewPane?.scrollIntoView()
     }
 
     return (
