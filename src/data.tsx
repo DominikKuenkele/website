@@ -60,7 +60,7 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>Referring as a collaborative process: learning to ground language through language games</h1>
             <p>Dominik Künkele, Simon Dobnik</p>
-            <p><strong>Short paper, published in <a href="https://mezzanine.um.si/en/conference/semdial-2023-marilogue/" target="_blank" rel="noreferrer">SemDial 2023 <span className="material-symbols-outlined">open_in_new</span></a>, available on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/paper/paper.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>Short paper, published in <a href="https://mezzanine.um.si/en/conference/semdial-2023-marilogue/" target="_blank" rel="noreferrer">SemDial 2023 <span className="material-symbols-outlined">open_in_new</span></a>, available <a href="http://semdial.org/anthology/Z23-Kunkele_semdial_0020.pdf" target="_blank" rel="noreferrer"> here <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
             <h3>Abstract</h3>
             <p>How do artificial agents based on neural networks coordinate on a new language through referential games over 3-d scenes?
                 We extend a popular CLEVR dataset to control for different combinations of features of target and distractor objects and examine the success of referential grounding learned by the agents.</p>
