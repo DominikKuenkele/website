@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { career, education, homePreview, projects } from "../data";
 import github_logo from '../images/github_logo.png';
 import linkedin_logo from '../images/linkedin_logo.png';
@@ -68,6 +69,9 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <meta name="description" content="I am Dominik Künkele. Computational Linguist and Developer." />
+      </Helmet>
       <Header
         changeSection={(section: Sections) => setSection(section)}
         setPreview={(previewElement: PreviewElement) => setPreview({ section: previewElement.section, id: previewElement.id })}
