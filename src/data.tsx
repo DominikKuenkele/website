@@ -116,7 +116,10 @@ export const projects: Array<Item> = [
             title: 'Empires',
             description: 'Dialogue driven game'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Empires</h1>
+            <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Dialogue-Systems_empires" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+        </div>
     },
     {
         itemMeta: {
@@ -124,7 +127,10 @@ export const projects: Array<Item> = [
             title: 'Non-lexical sounds in dialogue utterances',
             description: 'Student project'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Non-lexical sounds in dialogue utterances</h1>
+            <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Machine-Learning-2_non-lexical-sounds" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+        </div>
     },
     {
         itemMeta: {
@@ -140,7 +146,10 @@ export const projects: Array<Item> = [
             title: 'Web presence of handball club SG Weinstadt',
             description: 'Web development'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Web presence of handball club SG Weinstadt</h1>
+            <p><strong>available <a href="www.sg-weinstadt.de" target="_blank" rel="noreferrer"> here <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+        </div>
     }
 ]
 
