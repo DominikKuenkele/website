@@ -3,7 +3,7 @@ import image from './images/dominik.jpg';
 export const homePreview = <div>
     <img src={image} alt="" />
     <p>I am Dominik Künkele.<br />
-        Computational Linguist and Developer.</p>
+        Software Developer and Computational Linguist.</p>
 </div >
 
 export interface ItemMeta {
@@ -128,8 +128,16 @@ export const projects: Array<Item> = [
     },
     {
         itemMeta: {
+            date: '2021\n- today',
+            title: 'Private cloud',
+            description: 'Server administration, Containerization'
+        },
+        itemPreview: <div></div>
+    },
+    {
+        itemMeta: {
             date: '2015\n- 2022',
-            title: 'Website of SG Weinstadt',
+            title: 'Web presence of handball club SG Weinstadt',
             description: 'Web development'
         },
         itemPreview: <div></div>

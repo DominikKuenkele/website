@@ -44,7 +44,7 @@ $dot: 11px;
     }
 
     &:before {
-        left: ($date + shared.$spacing-horizontal * 2 + Section.$line + ($dot * 0.35)+60) * -1;
+        left: ($date + shared.$spacing-horizontal * 2 + Section.$line + ($dot * 0.35)+55) * -1;
         content: attr(data-date);
         text-align: right;
         font-weight: 100;
