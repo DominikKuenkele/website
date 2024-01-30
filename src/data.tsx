@@ -28,6 +28,8 @@ export const projects: Array<Item> = [
             <h1>Emergence of referring expressions through language games</h1>
             <p>Dominik Künkele</p>
             <p><strong>Master thesis, in progress on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/thesis/main.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p>This thesis focuses on the properties of the language that emerges when two neural networks communicate with a set of arbitrary symbols. More specifically, the networks need to learn how to refer to objects present in visual scenes. This research shows that the success of the communication is highly dependent on the networks’ ability to extract and use biases in the visual scenes in their messages.
+            </p>
             <h3>Code</h3>
             <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank" rel="noreferrer">
                 Experiments <span className="material-symbols-outlined">open_in_new</span>
@@ -83,13 +85,15 @@ export const projects: Array<Item> = [
     },
     {
         itemMeta: {
-            date: '2023',
+            date: '2023\n - today',
             title: 'This website',
             description: 'Web development'
         },
         itemPreview: <div>
             <h1>This website</h1>
             <p><strong>available on <a href="https://github.com/DominikKuenkele/website" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p>I have set up my web presence based on the React framework. This website is hosted through a Docker container on my server.
+            </p>
         </div>
     },
     {
@@ -119,6 +123,8 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>Empires</h1>
             <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Dialogue-Systems_empires" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p>I have developed a strategy game which the player can control through an interactive dialogue with a chatbot. Hereby, the player can use natural language to express their moves while the game can respond, clarify or execute the proper action with variability. The whole game is implemented in React, using the XState framework to control the game flow. Voice is transcribed and generated through Microsoft Azure services and subsequently parsed with the help of Rasa.
+            </p>
         </div>
     },
     {
@@ -130,6 +136,8 @@ export const projects: Array<Item> = [
         itemPreview: <div>
             <h1>Non-lexical sounds in dialogue utterances</h1>
             <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Machine-Learning-2_non-lexical-sounds" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p>Human dialogue is composed of more than only words and grammar rules. Elements like repetitions, change in prosody or non-lexical sounds make it sound natural. To understand how to transfer this naturalness to conversational agents, I analyzed the usage of non-lexical sounds in human dialogues. I have conducted several experiments to find ways to include them in generated utterances.
+            </p>
         </div>
     },
     {
@@ -138,7 +146,11 @@ export const projects: Array<Item> = [
             title: 'Private cloud',
             description: 'Server administration, Containerization'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Private cloud</h1>
+            <p>On my private server I have set up several Docker containers that provide services that I use in my daily life. These include a Nextcloud instance, a VPN server, a Git server, a Matrix server and my web presence, which are served through a Traefik reverse proxy.
+            </p>
+        </div>
     },
     {
         itemMeta: {
@@ -147,8 +159,10 @@ export const projects: Array<Item> = [
             description: 'Web development'
         },
         itemPreview: <div>
-            <h1>Web presence of handball club SG Weinstadt</h1>
+            <h1>Web presence of the handball club SG Weinstadt</h1>
             <p><strong>available <a href="www.sg-weinstadt.de" target="_blank" rel="noreferrer"> here <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p>After the original website of my local handball club generated few views and was outdated, I modernized it into a new web presence. For this new website I developed among others a tool in PHP that presents the standings of the teams and the results of their matches. Today, the website is visited several hundred times a day.
+            </p>
         </div>
     }
 ]
@@ -161,7 +175,11 @@ export const education: Array<Item> = [
             title: 'Language Technology',
             description: 'Master of Arts | Göteborg Universitet | Sweden'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Language Technology</h1>
+            <p>This Master's programme evolves around Natural Language Processing with a high focus on modern approaches as for instance attention and transformer based models. During the courses, we discussed fundamental and recent publications. Based on this, we were working on both theoretical research-based projects and on implementing practical applications.
+            </p>
+        </div>
     },
     {
         itemMeta: {
@@ -169,7 +187,11 @@ export const education: Array<Item> = [
             title: 'Ethical Hacking',
             description: 'Freestanding course | Kungliga Tekniska högskolan Stockholm | Sweden'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Ethical Hacking</h1>
+            <p>To broaden my understanding of IT security I applied for the 'Ethical Hacking' course. In this course we were tasked in attacking a vulnerable system in many different ways. That includes password cracking, attacking web services, databases and networks, and gaining root access on servers, I use the gained knowledge to run services safely in a production environment accessible over the internet,
+            </p>
+        </div>
     },
     {
         itemMeta: {
@@ -177,7 +199,21 @@ export const education: Array<Item> = [
             title: 'Wirtschaftsinformatik (Business Application Management)',
             description: 'Bachelor of Science | DHBW Stuttgart, Mahle GmbH | Germany'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Wirtschaftsinformatik (Business Application Management)</h1>
+            <p>In this Bachelor's programme I alternated every three months between taking courses at the DHBW university and working at MAHLE. The focus of the lectures lied on computer science, economics and management which we could directly apply in the practical phases at MAHLE. During this time, I took the opportunity to work in a plant in Shanghai for three months. I have completed the Bachelor’s degree with a thesis on the planning of the production process of newly developed products over a longer time horizon. Afterwards, I was offered a position in this department.
+            </p>
+        </div>
+    },
+    {
+        itemMeta: {
+            date: '2008\n- 2016',
+            title: 'Gymnasium (high school)',
+            description: 'Abitur | Remstalgymnasium Weinstadt | Germany'
+        },
+        itemPreview: <div>
+            <h1>Gymnasium (high school)</h1>
+        </div>
     }
 ]
 
@@ -186,9 +222,13 @@ export const career: Array<Item> = [
         itemMeta: {
             date: '2023',
             title: 'Teaching assistant - Master of Language Technology',
-            description: 'University of Gothenburg | Sweden'
+            description: 'Göteborg Universitet | Sweden'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>Teaching assistant - Master of Language Technology</h1>
+            <p>As the teaching assistant for the 'Machine Learning I' course, I was responsible for explaining and discussing assignments and underlying concepts with students, as well as grading their results. The course is focused mainly on basic machine learning algorithms and preparation of training data.
+            </p>
+        </div>
     },
     {
         itemMeta: {
@@ -196,6 +236,10 @@ export const career: Array<Item> = [
             title: 'SAP PP consultant',
             description: 'Mahle GmbH | Germany'
         },
-        itemPreview: <div></div>
+        itemPreview: <div>
+            <h1>SAP PP consultant</h1>
+            <p>As the SAP PP consultant, I was responsible for supporting the production planning team in defining their business processes. Furthermore, I was implementing software solutions in the global SAP ERP system based on their requirements. During this time, I was part of a global project to redefine all business processes for MAHLE. In this project, I was additionally assigned the role of development coordinator for production planning. Hereby, I was coordinating the complete software development process for all related developments, from writing the specifications to the implementation in India and testing the final product.
+            </p>
+        </div>
     }
 ]
