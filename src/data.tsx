@@ -122,7 +122,7 @@ export const projects: Array<Item> = [
         },
         itemPreview: <div>
             <h1>Empires</h1>
-            <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Dialogue-Systems_empires" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <p><strong>available on <a href="https://github.com/DominikKuenkele/MLT_Dialogue-Systems_empires" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a>, play it <a href="https://empires.dominik-kuenkele.de" target="_blank" rel="noreferrer"> here <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
             <p>I have developed a strategy game which the player can control through an interactive dialogue with a chatbot. Hereby, the player can use natural language to express their moves while the game can respond, clarify or execute the proper action with variability. The whole game is implemented in React, using the XState framework to control the game flow. Voice is transcribed and generated through Microsoft Azure services and subsequently parsed with the help of Rasa.
             </p>
             <h3>Code</h3>
