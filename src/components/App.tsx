@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
+import Obfuscate from 'react-obfuscate';
 import { career, education, homePreview, projects } from "../data";
 import github_logo from '../images/github_logo.png';
 import linkedin_logo from '../images/linkedin_logo.png';
@@ -8,7 +9,6 @@ import './Header';
 import Header from './Header';
 import Main from './Main';
 import Preview from './Preview';
-
 
 export enum Sections {
   Home = 'home',
@@ -91,11 +91,7 @@ function App() {
         <small>
           ©{new Date().getFullYear()} Dominik Künkele.
           All Rights Reserved. <br />
-          <a href="javascript:location='mailto:\u0064\u006f\u006d\u0069\u006e\u0069\u006b\u002e\u006b\u0075\u0065\u006e\u006b\u0065\u006c\u0065\u0040\u006f\u0075\u0074\u006c\u006f\u006f\u006b\u002e\u0063\u006f\u006d';void 0">
-            <span className="material-symbols-outlined">
-              mail
-            </span>
-            {' \u0064\u006f\u006d\u0069\u006e\u0069\u006b\u002e\u006b\u0075\u0065\u006e\u006b\u0065\u006c\u0065\u0040\u006f\u0075\u0074\u006c\u006f\u006f\u006b\u002e\u0063\u006f\u006d'}</a> &bull;
+          <span className="material-symbols-outlined">mail</span> <Obfuscate email="contact@dominik-kuenkele.de" />
           <a href="https://github.com/DominikKuenkele" target="_blank" rel="noreferrer"> <img src={github_logo} alt="" className='inline-logo' /> GitHub</a>	&bull;
           <a href="https://www.linkedin.com/in/dominik-k%C3%BCnkele-01270724a/" target="_blank" rel="noreferrer"> <img src={linkedin_logo} alt="" className='inline-logo' /> LinkedIn</a>
         </small>
