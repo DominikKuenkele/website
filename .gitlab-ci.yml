@@ -5,6 +5,7 @@ stages:
 
 latest:
   stage: build
+  image: docker:stable
   script:
     - docker pull $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
     - docker tag $CI_PROJECT_NAME:$CI_COMMIT_TAG $CONTAINER_TEST_IMAGE:latest
