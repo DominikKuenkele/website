@@ -155,7 +155,7 @@ export const projects: Array<Item> = [
         },
         itemPreview: <div>
             <h1>Private cloud</h1>
-            <p>On my private server I have set up several Docker containers that provide services that I use in my daily life. These include a Nextcloud instance, a VPN server, a Git server, a Matrix server and my web presence, which are served through a Traefik reverse proxy.
+            <p>On my private server I have set up several Docker containers on a Kubernetes cluster that provide services that I use in my daily life. These include a Nextcloud instance, a VPN server, a GitLab instance, a Matrix server and my web presence, which are served through a Traefik reverse proxy.
             </p>
         </div>
     },
@@ -196,7 +196,7 @@ export const education: Array<Item> = [
         },
         itemPreview: <div>
             <h1>Ethical Hacking</h1>
-            <p>To broaden my understanding of IT security I applied for the 'Ethical Hacking' course. In this course we were tasked in attacking a vulnerable system in many different ways. That includes password cracking, attacking web services, databases and networks, and gaining root access on servers, I use the gained knowledge to run services safely in a production environment accessible over the internet,
+            <p>To broaden my understanding of IT security I applied for the 'Ethical Hacking' course. In this course we were tasked in attacking a vulnerable system in many different ways. That includes password cracking, attacking web services, databases and networks, and gaining root access on servers, I use the gained knowledge to run services safely in a production environment accessible over the internet.
             </p>
         </div>
     },
