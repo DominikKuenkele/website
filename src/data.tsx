@@ -151,11 +151,15 @@ export const projects: Array<Item> = [
         itemMeta: {
             date: '2021\n- today',
             title: 'Private cloud',
-            description: 'Server administration, Containerization'
+            description: 'GitOps, CI/CD, Containerization'
         },
         itemPreview: <div>
             <h1>Private cloud</h1>
-            <p>On my private server I have set up several Docker containers on a Kubernetes cluster that provide services that I use in my daily life. These include a Nextcloud instance, a VPN server, a GitLab instance, a Matrix server and my web presence, which are served through a Traefik reverse proxy.
+            <p>
+                <ul>
+                    <li>Set up of a Kubernetes cluster that provides a Nextcloud instance, a Mail server, a Wireguard server, a GitLab instance and a web presence, which are served through a Traefik reverse proxy</li>
+                    <li>Implementation of a GitOps process with GitLab CI and ArgoCD to provide reproducible and automated deployments</li>
+                </ul>
             </p>
         </div>
     },
@@ -203,23 +207,13 @@ export const education: Array<Item> = [
     {
         itemMeta: {
             date: '2016\n- 2019',
-            title: 'Wirtschaftsinformatik (Business Application Management)',
+            title: 'Wirtschaftsinformatik (Business Information Systems - Application Management)',
             description: 'Bachelor of Science | DHBW Stuttgart, Mahle GmbH | Germany'
         },
         itemPreview: <div>
-            <h1>Wirtschaftsinformatik (Business Application Management)</h1>
+            <h1>Wirtschaftsinformatik (Business Information Systems - Application Management)</h1>
             <p>In this Bachelor's programme I alternated every three months between taking courses at the DHBW university and working at MAHLE. The focus of the lectures lied on computer science, economics and management which we could directly apply in the practical phases at MAHLE. During this time, I took the opportunity to work in a plant in Shanghai for three months. I have completed the Bachelor’s degree with a thesis on the planning of the production process of newly developed products over a longer time horizon. Afterwards, I was offered a position in this department.
             </p>
-        </div>
-    },
-    {
-        itemMeta: {
-            date: '2008\n- 2016',
-            title: 'Gymnasium (high school)',
-            description: 'Abitur | Remstalgymnasium Weinstadt | Germany'
-        },
-        itemPreview: <div>
-            <h1>Gymnasium (high school)</h1>
         </div>
     }
 ]
@@ -239,13 +233,35 @@ export const career: Array<Item> = [
     },
     {
         itemMeta: {
-            date: '2019\n- 2021',
+            date: '2020\n- 2021',
+            title: 'Development coordinator',
+            description: 'Mahle GmbH | Germany'
+        },
+        itemPreview: <div>
+            <h1>Development coordinator</h1>
+            <p>
+                <ul>
+                    <li>Coordination of development process in a global project with 10 business analysts / 10 developers</li>
+                    <li>Definition of unified Git process to coordinate distributed development for 20 team members</li>
+                    <li>Providing trainings and support</li>
+                </ul>
+            </p>
+        </div>
+    },
+    {
+        itemMeta: {
+            date: '2019\n- 2020',
             title: 'SAP PP consultant',
             description: 'Mahle GmbH | Germany'
         },
         itemPreview: <div>
             <h1>SAP PP consultant</h1>
-            <p>As the SAP PP consultant, I was responsible for supporting the production planning team in defining their business processes. Furthermore, I was implementing software solutions in the global SAP ERP system based on their requirements. During this time, I was part of a global project to redefine all business processes for MAHLE. In this project, I was additionally assigned the role of development coordinator for production planning. Hereby, I was coordinating the complete software development process for all related developments, from writing the specifications to the implementation in India and testing the final product.
+            <p>
+                <ul>
+                    <li>Development of extensions to the SAP ERP system in SQL to increase transparency in the production planning process</li>
+                    <li>Use SQL and ABAP to collect data from millions of data records for production planning applications</li>
+                    <li>Define business processes and increase efficiency and robustness in production planning</li>
+                </ul>
             </p>
         </div>
     }

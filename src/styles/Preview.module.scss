@@ -25,6 +25,10 @@
 
         @media only screen and (min-width: shared.$tablet-size) {
             text-align-last: right;
+
+            & ul {
+                direction: rtl;
+            }
         }
 
         & h1,
