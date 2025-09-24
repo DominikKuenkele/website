@@ -21,8 +21,8 @@ export const projects: Array<Item> = [
     {
         itemMeta: {
             date: '2025',
-            title: 'Emergence of referring expressions through language games',
-            description: 'Master thesis'
+            title: 'Learning to Refer: How Scene Complexity Affects Emergent Communication in Neural Agents',
+            description: 'Paper at IWCS 2025'
         },
         itemPreview: <div>
             <h1>Learning to Refer: How Scene Complexity Affects Emergent Communication in Neural Agents</h1>
@@ -54,7 +54,7 @@ export const projects: Array<Item> = [
         itemMeta: {
             date: '2024',
             title: 'Emergence of referring expressions through language games',
-            description: 'Master thesis'
+            description: 'Master thesis at Göteborg universitet'
         },
         itemPreview: <div>
             <h1>Emergence of referring expressions through language games</h1>
@@ -89,7 +89,7 @@ export const projects: Array<Item> = [
         itemMeta: {
             date: '2023',
             title: 'Referring as a collaborative process: learning to ground language through language games',
-            description: 'Short paper'
+            description: 'Short paper at Semdial 2023'
         },
         itemPreview: <div>
             <h1>Referring as a collaborative process: learning to ground language through language games</h1>
