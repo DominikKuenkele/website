@@ -20,16 +20,16 @@ export interface Item {
 export const projects: Array<Item> = [
     {
         itemMeta: {
-            date: '2023',
+            date: '2025',
             title: 'Emergence of referring expressions through language games',
             description: 'Master thesis'
         },
         itemPreview: <div>
-            <h1>Emergence of referring expressions through language games</h1>
-            <p>Dominik Künkele</p>
-            <p><strong>Master thesis, in progress on <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis/blob/main/thesis/main.pdf" target="_blank" rel="noreferrer"> Github <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
-            <p>This thesis focuses on the properties of the language that emerges when two neural networks communicate with a set of arbitrary symbols. More specifically, the networks need to learn how to refer to objects present in visual scenes. This research shows that the success of the communication is highly dependent on the networks’ ability to extract and use biases in the visual scenes in their messages.
-            </p>
+            <h1>Learning to Refer: How Scene Complexity Affects Emergent Communication in Neural Agents</h1>
+            <p>Dominik Künkele, Simon Dobnik</p>
+            <p><strong>Paper, published at <a href="https://iwcs2025.github.io/" target="_blank" rel="noreferrer"> IWCS 2025 <span className="material-symbols-outlined">open_in_new</span></a>, available <a href="https://preview.aclanthology.org/iwcs-25-ingestion/2025.iwcs-1.26/" target="_blank" rel="noreferrer"> here <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <h3>Abstract</h3>
+            <p>We explore how neural network-based agents learn to map continuous sensory input to discrete linguistic symbols through interactive language games. One agent describes objects in 3D scenes using invented vocabulary; the other interprets references based on attributes like shape, color, and size. Learning is guided by feedback from successful interactions. We extend the CLEVR dataset with more complex scenes to study how increased referential complexity impacts language acquisition and symbol grounding in artificial agents.</p>
             <h3>Code</h3>
             <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank" rel="noreferrer">
                 Experiments <span className="material-symbols-outlined">open_in_new</span>
@@ -39,16 +39,48 @@ export const projects: Array<Item> = [
             </a>
 
             <h3>Datasets</h3>
-            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/WMSEdMok962L266" target="_blank" rel="noreferrer">
                 CLEVR Dale-2 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/Dkc7cL5c9RWe8gc" target="_blank" rel="noreferrer">
                 CLEVR Dale-5 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/7g4X9fZNA25f55L" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/foqFo5oJ6Tdgm5x" target="_blank" rel="noreferrer">
+                CLEVR Color <span className="material-symbols-outlined">open_in_new</span>
+            </a>
+        </div>
+    },
+    {
+        itemMeta: {
+            date: '2024',
+            title: 'Emergence of referring expressions through language games',
+            description: 'Master thesis'
+        },
+        itemPreview: <div>
+            <h1>Emergence of referring expressions through language games</h1>
+            <p>Dominik Künkele</p>
+            <p><strong>Master thesis, published at <a href="https://gupea.ub.gu.se/handle/2077/83854" target="_blank" rel="noreferrer"> Göteborgs universitet <span className="material-symbols-outlined">open_in_new</span></a></strong></p>
+            <h3>Abstract</h3>
+            <p>There has been a recent focus on how neural agents in language games ground referring expressions in visual 3D-scenes. This thesis explores when referring expressions emerge and if they align with referring expression found in natural languages like English. For this, multiple new artificial datasets based on the CLEVR dataset are generated to control precisely for the bias included in the visual scenes, namely the attributes of the target object and distractors. The datasets and their controlled biases are validated in a series of reference expression generation and comprehension tasks. A sender and a receiver are playing language games in which they need to communicate referring expressions to solve the same tasks. For many tasks, they are able to successfully ground referring expressions in their own emerged language. An analysis of the emerged languages shows that the emerged referring expressions are aligned very few with natural language referring expressions. However, they share certain features like an incremental approach in which some attributes are consistently used more often than others.</p>
+            <h3>Code</h3>
+            <a href="https://github.com/DominikKuenkele/MLT_Master-Thesis" target="_blank" rel="noreferrer">
+                Experiments <span className="material-symbols-outlined">open_in_new</span>
+            </a><br />
+            <a href='https://github.com/DominikKuenkele/MLT_Master-Thesis_clevr-dataset-gen' target="_blank" rel="noreferrer">
+                Generation of datasets <span className="material-symbols-outlined">open_in_new</span>
+            </a>
+
+            <h3>Datasets</h3>
+            <a href="https://nextcloud.dominik-kuenkele.de/s/WMSEdMok962L266" target="_blank" rel="noreferrer">
+                CLEVR Dale-2 <span className="material-symbols-outlined">open_in_new</span>
+            </a> <br />
+            <a href="https://nextcloud.dominik-kuenkele.de/s/Dkc7cL5c9RWe8gc" target="_blank" rel="noreferrer">
+                CLEVR Dale-5 <span className="material-symbols-outlined">open_in_new</span>
+            </a> <br />
+            <a href="https://nextcloud.dominik-kuenkele.de/s/pqLTRMp9qZXp7Zn" target="_blank" rel="noreferrer">
                 CLEVR Single <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/MeANAaEtHx9dMRJ" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/foqFo5oJ6Tdgm5x" target="_blank" rel="noreferrer">
                 CLEVR Color <span className="material-symbols-outlined">open_in_new</span>
             </a>
         </div>
@@ -75,10 +107,10 @@ export const projects: Array<Item> = [
             </a>
 
             <h3>Datasets</h3>
-            <a href="https://nextcloud.dominik-kuenkele.de/s/SRt2o3eci5HjyY3" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/WMSEdMok962L266" target="_blank" rel="noreferrer">
                 CLEVR Dale-2 <span className="material-symbols-outlined">open_in_new</span>
             </a> <br />
-            <a href="https://nextcloud.dominik-kuenkele.de/s/n3D8eXQYex6EXRb" target="_blank" rel="noreferrer">
+            <a href="https://nextcloud.dominik-kuenkele.de/s/Dkc7cL5c9RWe8gc" target="_blank" rel="noreferrer">
                 CLEVR Dale-5 <span className="material-symbols-outlined">open_in_new</span>
             </a>
         </div>
@@ -182,7 +214,7 @@ export const projects: Array<Item> = [
 export const education: Array<Item> = [
     {
         itemMeta: {
-            date: '2021\n- today',
+            date: '2021\n- 2024',
             title: 'Language Technology',
             description: 'Master of Arts | Göteborg Universitet | Sweden'
         },
@@ -219,6 +251,22 @@ export const education: Array<Item> = [
 ]
 
 export const career: Array<Item> = [
+    {
+        itemMeta: {
+            date: '2024\n- now',
+            title: 'Golang Software Developer',
+            description: 'Check24 | Germany'
+        },
+        itemPreview: <div>
+            <h1>Golang Software Developer</h1>
+            <p>
+                <ul>
+                    <li>Developing high-performance search functionality in Go, optimizing query response times for large-scale data processing</li>
+                    <li>Architecting and implementing a robust mock server for reliable end-to-end testing environments</li>
+                </ul>
+            </p>
+        </div>
+    },
     {
         itemMeta: {
             date: '2023',

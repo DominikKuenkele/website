@@ -91,7 +91,7 @@ function App() {
         <small>
           ©{new Date().getFullYear()} Dominik Künkele.
           All Rights Reserved. <br />
-          <span className="material-symbols-outlined">mail</span> <Obfuscate email="contact@dominik-kuenkele.de" />&bull;
+          <span className="material-symbols-outlined">mail</span> <Obfuscate email="contact@dominik-kuenkele.de" /> &bull;
           <a href="https://github.com/DominikKuenkele" target="_blank" rel="noreferrer"> <img src={github_logo} alt="" className='inline-logo' /> GitHub</a>	&bull;
           <a href="https://www.linkedin.com/in/dominik-k%C3%BCnkele-01270724a/" target="_blank" rel="noreferrer"> <img src={linkedin_logo} alt="" className='inline-logo' /> LinkedIn</a>
         </small>
